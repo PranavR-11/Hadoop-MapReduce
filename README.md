@@ -18,9 +18,10 @@ The components of the server include the following:
   Running the tasks parallely and storing the input data partitions.
     
 The pictorial representation of the setup:
+
 ![image](https://user-images.githubusercontent.com/94732433/205029000-beaaba02-b78f-4008-b2e2-0baaf3e0ccdb.png)
 
-The three operations the user will be given a choice of are
+The three operations the user will be given a choice of are:
 
 • Write
 
