@@ -1,7 +1,7 @@
 # Hadoop-MapReduce
 The project depicts implementation of the core components of Hadoop's Map Reduce Framework.
-The aim of this project was to gain a deeper understanding on how MapReduce jobs are executed parallely across multiple nodes. This is acheived by creating a setup of a multi-node configuration that can store input data across multiple nodes and run Map and Reduce jobs.
-Python has been used along with socket programming for the connection between the multinodal environment.
+The aim of this project was to gain a deeper understanding on how MapReduce jobs are executed parallelly across multiple nodes. This is achieved by creating a setup of a multi-node configuration that can store input data across multiple nodes and run Map and Reduce jobs.
+Python has been used along with socket programming for the connection between the multi-nodal environment.
 This can be run on ubuntu (python3) and not windows.
 The components of the server include the following:
 
