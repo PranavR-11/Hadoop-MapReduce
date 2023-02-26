@@ -57,7 +57,7 @@ def server_program():
                 try:
                     index = meta_data_file_name.index(file_name)
                 except ValueError:
-                    print('New file, adding to list')
+                    print('New file,adding to list')
                     err = 1
                     meta_data_file_name.append(file_name)
                     meta_data_num_workers.append(num_workers)
