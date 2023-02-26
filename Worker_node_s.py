@@ -2,7 +2,7 @@ import socket
 import subprocess
 import os, sys
 
-def map_shuffle_reduce(file_name, num_workers):
+def map_shuffle_reduce(file_name,num_workers):
     new_file_name = file_name[:-1] #name540
     print(new_file_name)
 
