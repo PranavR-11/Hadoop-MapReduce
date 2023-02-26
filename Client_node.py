@@ -26,7 +26,7 @@ def send_to_worker(worker_port, filename, pie):
     sendstring = 'WR!7zX' + filename + '!7zX' + pie.decode()
     ws.send(sendstring.encode())
     ws_messg=ws.recv(1024)
-    print("message from worker: ",ws_messg.decode())
+    print("message from worker: ", ws_messg.decode())
     ws.close()
 
 def read_from_worker(worker_port, filename):
